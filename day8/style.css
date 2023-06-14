@@ -1,0 +1,142 @@
+/* Define the global or root variables*/
+:root{
+    --primaryColor:#213555;
+    --backgroundColor:#F5EFE7;
+    --primaryAccentColor:#4F709C;
+    --secondaryColor:#D8C4B6;
+    --whiteColor:white;
+    --blackcolor:#222222;
+    --primaryFont:"Open Sans",sans-serif;
+    --navbarHeight:3rem;
+    --cursiveFont:'Neucha&family',cursive;
+    --cursivefont: 'Pacifico&family', newcursive
+
+}
+
+/* main css*/
+body{
+    background-color: var(--backgroundColor);
+    color: var(--primaryColor);
+    font-family: var(--primaryFont);
+    margin-top: 0px;
+    margin-left: 0px ;
+    margin-right: 0px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: var(--primaryColor);
+}
+
+.navigation{
+    background-color: var(--whiteColor);
+    height: var(--navbarHeight);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    filter: drop-shadow(0px 3px 4px grey); 
+    
+}
+
+.logo{
+    display: flex;
+    padding-left: 20px;
+    width: 12rem;
+    align-items: center;
+    
+
+
+}
+
+.logoImage{
+    height: 2rem;
+    /* float: left; */
+    padding: 8px;
+}
+
+.contactImage{
+    height: 2rem;
+    padding: 10px;
+    margin-right: -5px;
+    margin-top: 10px;
+}
+
+.contactnumber{
+    font-size: 12px;
+    padding: 20px;
+}
+
+.menuitems{
+    flex-grow: 2;
+}
+
+.menuitem{
+    margin-left: 20px;
+}
+
+/* banner */
+.banner{
+    display: flex;
+    height: 450px;
+    background: linear-gradient(45deg,var(--secondaryColor),var(--primaryAccentColor));
+  filter: drop-shadow(0px 3px 4px grey); 
+  font-family: var(--cursiveFont);
+  justify-content: space-around;
+  align-items:center;
+  padding: 20px;
+}
+
+.bannerleft{
+    width: 50%;
+    /* margin-left: 100px; */
+}
+
+/* .bannerright{
+    flex-grow: 2;
+} */
+
+.bannerimage{
+    height: 300px;
+    margin-left: 250px;
+    /* width: 200px; */
+}
+
+.gretting{
+    font-size: 1.25rem;
+}
+.title{
+    font-size: 2rem;
+    color: white;
+
+}
+
+.titlespan{
+    display: inline-block;
+    background-color: var(--primaryColor);
+    padding: 0.5rem;
+    margin: 5px 0px;
+}
+
+.description{
+    line-height: 2rem;
+    margin: 30px 0px;
+    
+}
+
+.showCVbutton{
+    background: linear-gradient(white,rgb(205,205,205),rgb(215,215,215));
+    padding: 10px 15px;
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 3px grey);
+}
+
+.showCVbutton:hover{
+    background: linear-gradient(white,rgb(215,215,215));
+
+}
+
+.contact{
+    display: flex;
+}
+
