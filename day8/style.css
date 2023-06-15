@@ -9,8 +9,8 @@
     --primaryFont:"Open Sans",sans-serif;
     --navbarHeight:3rem;
     --cursiveFont:'Neucha&family',cursive;
-    --cursivefont: 'Pacifico&family', newcursive
-
+    --cursivefont: 'Pacifico&family', newcursive;
+    --secondaryfont: 'Kablammo&family', cursive;
 }
 
 /* main css*/
@@ -150,14 +150,62 @@ a{
     
 }
 
-.serviceTextSubHeading{
+.textSubHeading{
 
     color: var(--primaryAccentColor);
     font-size: 1.25rem;
+    letter-spacing: 0.4rem;
 }
 
-.serviceTextHeading{
+.textHeading{
 
     font-size: 2.5rem;
     font-weight: bold;
+    font-family: var(--secondaryfont);
+}
+
+.serviceCards{
+    margin-top: 30px;
+    display: flex;
+}
+
+.serviceCard{
+    border: 2px solid grey;
+    border-radius: 2px;
+    filter: drop-shadow(1px 1px 2px black);
+    margin: 15px;
+    padding: 40px;
+    background-color: rgb(218, 211, 219);
+}
+
+.serviceCard:hover{
+    filter: drop-shadow(3px 3px 8px grey);
+    border: none;
+}
+
+.serviceIconDiv{
+    background-color: var(--primaryColor);
+    padding: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.serviceIcon{
+    font-size: 2rem;
+    color: white;
+}
+
+.serviceTitle{
+    font-size: 1.75rem;
+    margin: 20px 0px;
+}
+
+.serviceFeature{
+    font-size: 1rem;
+    margin: 10px 0px;
+}
+
+.serviceFeatureIcon{
+    font-size: 0.75rem;
+    color: navy;
 }
