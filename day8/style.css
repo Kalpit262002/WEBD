@@ -75,7 +75,7 @@ a{
     margin-left: 20px;
 }
 
-/* banner */
+
 .banner{
     display: flex;
     height: 450px;
@@ -91,10 +91,6 @@ a{
     width: 50%;
     /* margin-left: 100px; */
 }
-
-/* .bannerright{
-    flex-grow: 2;
-} */
 
 .bannerimage{
     height: 300px;
